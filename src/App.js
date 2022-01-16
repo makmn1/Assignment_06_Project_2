@@ -1,8 +1,7 @@
 import React from 'react'
-import Header from './Header';
-import Inputbox from './Inputbox';
-import Button from './Button';
-import DisplayLabel from './DisplayLabel';
+import Header from './components/Header';
+import CityInput from './components/CityInput';
+
 
 
 export default function App() {
@@ -10,9 +9,9 @@ export default function App() {
     <div>
 
       <Header text="Zip Code Search" color="red" />
-      <Inputbox />
-      <Button text="Find Cities" color="green" />
-      <DisplayLabel />
+      <CityInput></CityInput>
+
+      
 
      
 
